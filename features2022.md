@@ -7,6 +7,8 @@ css: casper.css
 
 # Tutorial videos (c)
 
+::: incremental
+
 - With proper voice-over
 - Block editor
 - Importing from Word
@@ -14,16 +16,21 @@ css: casper.css
 - What other video should we make?
 - [RC Video Tutorials](https://www.researchcatalogue.net/view/273532/1685164 "RC Video Tutorials by Luc Döbereiner")
 
+:::
+
 # Media Repository (c)
+
+::: incremental
 
 - Motivation
 - Specification of exposition format
 - Media repository
 - Further optimization plans
-
 (closed vocabulary)
 
-# Block editor (t)
+:::
+
+# Block Editor (t)
 
 An editor for linear scrolling text-heavy pages
 
@@ -56,24 +63,34 @@ Improved handling of media and encoding (SVG, audio, video)
 
 # Fonts (c)
 
-- The problem
-- The solution of self-hosting fonts
-- Migration
-- The selection of fonts we made
+::: incremental
+
+- The problem: common fonts are not universal.
+- The solution: we self-host all fonts
+- [Migrating old expositions](https://guide.researchcatalogue.net/#migration-of-fonts-in-your-expositions)
+- The selection of fonts we made [guide](https://guide.researchcatalogue.net/#fonts)
   - *Please let us know if you have any fonts that you think would complete the set!*
-- Will also become available for newer expositions.
+- Migration will also become available for newer expositions.
 - Maybe a point for tomorrow: should we be even more strict? Should unsupported fonts be forbidden?
-  <br>
+
+:::
 
 # Group Feature (c)
 
 Group feature
 
+::: incremental
+
 - Allows for a group of users to view and collaborate on multiple expositions.
 - More on the details in the next session.
 
+:::
+
 # Collaboration System (c)
 
+::: incremental
+
+- One of the most complex parts of RC.
 - Better information for users when they are invited.
 - Collaboration always leave a trace.
 - Messages no longer mixed with invitations.
@@ -81,16 +98,21 @@ Group feature
 - Also portal membership and group requests appear here.
 - Related: reviewing menu cleanup
 
+:::
+
 # Bug Fixes and Server (c)
 
-- Server was 
 - Expositions can be hosted on external servers
 - Guide speedup and clickable headers
-  <br>
 
 # Major bug fixes worth mentioning / impact on usability
 
 - Moving many tools at once is possible now
 - You can now have **bold** headers in the text editor and it doesn't mess up the content menu
-- \
-  Server-migration
+- Server-migration
+
+# Currently in progress:
+
+- Search result with context
+- The undo function
+
