@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="generator" content="pandoc">
+  <meta name="author" content="Casper, Luc, Tero">
+  <title>new features</title>
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+  <link rel="stylesheet" href="https://unpkg.com/reveal.js@^4//dist/reset.css">
+  <link rel="stylesheet" href="https://unpkg.com/reveal.js@^4//dist/reveal.css">
+  <style>
+    .reveal .sourceCode {  /* see #7635 */
+      overflow: visible;
+    }
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    span.underline{text-decoration: underline;}
+    div.column{display: inline-block; vertical-align: top; width: 50%;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    ul.task-list{list-style: none;}
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
+  </style>
+  <link rel="stylesheet" href="https://unpkg.com/reveal.js@^4//dist/theme/simple.css" id="theme">
+  <link rel="stylesheet" href="casper.css"/>
+</head>
+<body>
+  <div class="reveal">
+    <div class="slides">
+
+<section id="title-slide">
+  <h1 class="title">new features</h1>
+  <p class="subtitle">2020-2022</p>
+  <p class="author">Casper, Luc, Tero</p>
+</section>
+
+<section id="tutorial-videos-c" class="slide level1">
+<h1>Tutorial videos (c)</h1>
+<ul>
+<li>With proper voice-over</li>
+<li>Block editor</li>
+<li>Importing from Word</li>
+<li>Creating a user account</li>
+<li>What other video should we make?</li>
+<li><a href="https://www.researchcatalogue.net/view/273532/1685164"
+title="RC Video Tutorials by Luc Döbereiner">RC Video Tutorials</a></li>
+</ul>
+</section>
+<section id="media-repository-c" class="slide level1">
+<h1>Media Repository (c)</h1>
+<ul>
+<li>Motivation</li>
+<li>Specification of exposition format</li>
+<li>Media repository</li>
+<li>Further optimization plans</li>
+</ul>
+<p>(closed vocabulary)</p>
+</section>
+<section id="block-editor-t" class="slide level1">
+<h1>Block editor (t)</h1>
+<p>An editor for linear scrolling text-heavy pages</p>
+<ul>
+<li>Responsive pages - breakpoints</li>
+<li>Accessibility</li>
+<li>A mobile friendly navigation menu </li>
+<li>This editor also introduces a new way of hyperlinking tools</li>
+<li>Block and graphic pages can be mixed in one exposition</li>
+</ul>
+</section>
+<section id="pdf-exporting-of-expositions-l" class="slide level1">
+<h1>PDF Exporting of Expositions (l)</h1>
+<p>Graphical expositions can now exported as PDFs</p>
+</section>
+<section id="real-time-collaborative-editing-t" class="slide level1">
+<h1>Real-Time Collaborative Editing (t)</h1>
+<p>Real-time collaborative editing</p>
+<ul>
+<li>Movement, resizing and rotation of objects
+<ul>
+<li>Certain changes need to be activated through refresh</li>
+<li>Text editing is currently not immediately visible</li>
+</ul></li>
+<li>Effective when discussing at the same time on zoom etc.</li>
+<li>“no limit” to amount of users</li>
+</ul>
+</section>
+<section id="media-files-l" class="slide level1">
+<h1>Media Files (l)</h1>
+<p>Improved handling of media and encoding (SVG, audio, video)</p>
+<ul>
+<li>We have fixed all mp3 files to 256 kb/s.</li>
+<li>Video now has higher quality audio tracks</li>
+</ul>
+</section>
+<section id="fonts-c" class="slide level1">
+<h1>Fonts (c)</h1>
+<ul>
+<li>The problem</li>
+<li>The solution of self-hosting fonts</li>
+<li>Migration</li>
+<li>The selection of fonts we made
+<ul>
+<li><em>Please let us know if you have any fonts that you think would
+complete the set!</em></li>
+</ul></li>
+<li>Will also become available for newer expositions.</li>
+<li>Maybe a point for tomorrow: should we be even more strict? Should
+unsupported fonts be forbidden? <br></li>
+</ul>
+</section>
+<section id="group-feature-c" class="slide level1">
+<h1>Group Feature (c)</h1>
+<p>Group feature</p>
+<ul>
+<li>Allows for a group of users to view and collaborate on multiple
+expositions.</li>
+<li>More on the details in the next session.</li>
+</ul>
+</section>
+<section id="collaboration-system-c" class="slide level1">
+<h1>Collaboration System (c)</h1>
+<ul>
+<li>Better information for users when they are invited.</li>
+<li>Collaboration always leave a trace.</li>
+<li>Messages no longer mixed with invitations.</li>
+<li>We cleaned up a few incorrect/confusing permissions.</li>
+<li>Also portal membership and group requests appear here.</li>
+<li>Related: reviewing menu cleanup</li>
+</ul>
+</section>
+<section id="bug-fixes-and-server-c" class="slide level1">
+<h1>Bug Fixes and Server (c)</h1>
+<ul>
+<li>Server was</li>
+<li>Expositions can be hosted on external servers</li>
+<li>Guide speedup and clickable headers <br></li>
+</ul>
+</section>
+<section id="major-bug-fixes-worth-mentioning-impact-on-usability"
+class="slide level1">
+<h1>Major bug fixes worth mentioning / impact on usability</h1>
+<ul>
+<li>Moving many tools at once is possible now</li>
+<li>You can now have <strong>bold</strong> headers in the text editor
+and it doesn’t mess up the content menu</li>
+<li><br />
+Server-migration</li>
+</ul>
+</section>
+    </div>
+  </div>
+
+  <script src="https://unpkg.com/reveal.js@^4//dist/reveal.js"></script>
+
+  <!-- reveal.js plugins -->
+  <script src="https://unpkg.com/reveal.js@^4//plugin/notes/notes.js"></script>
+  <script src="https://unpkg.com/reveal.js@^4//plugin/search/search.js"></script>
+  <script src="https://unpkg.com/reveal.js@^4//plugin/zoom/zoom.js"></script>
+
+  <script>
+
+      // Full list of configuration options available at:
+      // https://revealjs.com/config/
+      Reveal.initialize({
+        // Display controls in the bottom right corner
+        controls: true,
+
+        // Help the user learn the controls by providing hints, for example by
+        // bouncing the down arrow when they first encounter a vertical slide
+        controlsTutorial: true,
+
+        // Determines where controls appear, "edges" or "bottom-right"
+        controlsLayout: 'bottom-right',
+
+        // Visibility rule for backwards navigation arrows; "faded", "hidden"
+        // or "visible"
+        controlsBackArrows: 'faded',
+
+        // Display a presentation progress bar
+        progress: true,
+
+        // Display the page number of the current slide
+        slideNumber: false,
+
+        // 'all', 'print', or 'speaker'
+        showSlideNumber: 'all',
+
+        // Add the current slide number to the URL hash so that reloading the
+        // page/copying the URL will return you to the same slide
+        hash: true,
+
+        // Start with 1 for the hash rather than 0
+        hashOneBasedIndex: false,
+
+        // Flags if we should monitor the hash and change slides accordingly
+        respondToHashChanges: true,
+
+        // Push each slide change to the browser history
+        history: false,
+
+        // Enable keyboard shortcuts for navigation
+        keyboard: true,
+
+        // Enable the slide overview mode
+        overview: true,
+
+        // Disables the default reveal.js slide layout (scaling and centering)
+        // so that you can use custom CSS layout
+        disableLayout: false,
+
+        // Vertical centering of slides
+        center: true,
+
+        // Enables touch navigation on devices with touch input
+        touch: true,
+
+        // Loop the presentation
+        loop: false,
+
+        // Change the presentation direction to be RTL
+        rtl: false,
+
+        // see https://revealjs.com/vertical-slides/#navigation-mode
+        navigationMode: 'default',
+
+        // Randomizes the order of slides each time the presentation loads
+        shuffle: false,
+
+        // Turns fragments on and off globally
+        fragments: true,
+
+        // Flags whether to include the current fragment in the URL,
+        // so that reloading brings you to the same fragment position
+        fragmentInURL: true,
+
+        // Flags if the presentation is running in an embedded mode,
+        // i.e. contained within a limited portion of the screen
+        embedded: false,
+
+        // Flags if we should show a help overlay when the questionmark
+        // key is pressed
+        help: true,
+
+        // Flags if it should be possible to pause the presentation (blackout)
+        pause: true,
+
+        // Flags if speaker notes should be visible to all viewers
+        showNotes: false,
+
+        // Global override for autoplaying embedded media (null/true/false)
+        autoPlayMedia: null,
+
+        // Global override for preloading lazy-loaded iframes (null/true/false)
+        preloadIframes: null,
+
+        // Number of milliseconds between automatically proceeding to the
+        // next slide, disabled when set to 0, this value can be overwritten
+        // by using a data-autoslide attribute on your slides
+        autoSlide: 0,
+
+        // Stop auto-sliding after user input
+        autoSlideStoppable: true,
+
+        // Use this method for navigation when auto-sliding
+        autoSlideMethod: null,
+
+        // Specify the average time in seconds that you think you will spend
+        // presenting each slide. This is used to show a pacing timer in the
+        // speaker view
+        defaultTiming: null,
+
+        // Enable slide navigation via mouse wheel
+        mouseWheel: false,
+
+        // The display mode that will be used to show slides
+        display: 'block',
+
+        // Hide cursor if inactive
+        hideInactiveCursor: true,
+
+        // Time before the cursor is hidden (in ms)
+        hideCursorTime: 5000,
+
+        // Opens links in an iframe preview overlay
+        previewLinks: false,
+
+        // Transition style (none/fade/slide/convex/concave/zoom)
+        transition: 'slide',
+
+        // Transition speed (default/fast/slow)
+        transitionSpeed: 'default',
+
+        // Transition style for full page slide backgrounds
+        // (none/fade/slide/convex/concave/zoom)
+        backgroundTransition: 'fade',
+
+        // Number of slides away from the current that are visible
+        viewDistance: 3,
+
+        // Number of slides away from the current that are visible on mobile
+        // devices. It is advisable to set this to a lower number than
+        // viewDistance in order to save resources.
+        mobileViewDistance: 2,
+
+        // reveal.js plugins
+        plugins: [
+          RevealNotes,
+          RevealSearch,
+          RevealZoom
+        ]
+      });
+    </script>
+    </body>
+</html>
