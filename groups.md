@@ -97,11 +97,11 @@ css: casper.css
 
 ::: incremental
 
+- <https://www.researchcatalogue.net/portal/projects>
 - Temporarily active
-- When finished, they remain accessible but immutable.
+- When finished, expositions remain accessible but immutable.
 - Funded research projects (the first is eu4arts)
 - SAR interest groups
-- There will be a new section
-- If you are interested in a project portal, contact Johan.
+- If you are interested in a project portal, contact [Johan](Johan.Haarberg@uib.no).
 
 :::

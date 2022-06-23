@@ -10,7 +10,7 @@ css: casper.css
 
 - Current State of Feeds
 - Digest Email
-- Keyword Pages
+- Keyword Pages (rc keyword page)
 - Update on "significant" changes to expositions
 
 # Representing On-Site Activities
@@ -21,4 +21,6 @@ css: casper.css
 # Public Space
 
 ![John Cage - Lecture on Nothing](cage.jpg "a score by John Cage")
+- the exposition format as a massive space for conversation
+- discussions not in the form of ordered threads but interweaved inputs that can be read in different ways.
 

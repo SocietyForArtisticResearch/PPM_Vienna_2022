@@ -23,11 +23,18 @@ css: casper.css
 ::: incremental
 
 - Motivation
-- Background: specification of exposition format
-- Digital objects,
+- Background: specification of exposition format & digital objects
+- artistic materials as data that can be structured and displayed in flexible ways.
+
+:::
+
+# Media Repository (c&l)
+
+::: incremental
+
 - first step: Media Repository
 - Further optimization plans
-(closed vocabulary)
+- Closed Vocabulary
 
 :::
 
@@ -35,15 +42,18 @@ css: casper.css
 
 ::: incremental
 
-An editor for linear scrolling text-heavy pages
-
+- An editor for linear scrolling text-heavy pages
 - Responsive pages - breakpoints
 - Accessibility
-- A mobile friendly navigation menu&#x20;
+- Generally more mobile friendly, navigation menu
 - This editor also introduces a new way of hyperlinking tools
 - Block and graphic pages can be mixed in one exposition
 
+[help](https://guide.researchcatalogue.net/#block-editor)
+[video tutorial](https://www.researchcatalogue.net/view/273532/1685164#tool-1686858)
+
 :::
+
 
 # PDF Exporting of Expositions (l)
 
@@ -133,9 +143,9 @@ Group feature
 # Currently in progress:
 
 ::: incremental
-
+ 
 - Search result with context.
 - An undo function for graphical and block editor.
 
-::: incremental
+:::
 
