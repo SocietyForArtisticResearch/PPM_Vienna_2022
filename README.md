@@ -1,6 +1,7 @@
 # Portal Partner Meeting Presentations
 
-see index.html
+To read the presentations, visit:
+<https://societyforartisticresearch.github.io/PPM_Vienna_2022>
 
 ---
 
